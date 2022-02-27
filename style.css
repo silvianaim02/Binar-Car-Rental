@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/* TEXT CUSTOM */
+.heading-style {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+.sub-heading-style {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+/* Padding top */
+.p-top {
+    padding-top: 100px;
+}
+
+/* Color */
+.bg-blue {
+    background-color: #0D28A6;
+}
+.bg-light-purple {
+    background-color: #F1F3FF;
+}
+
+/* Button */
+.btn-green {
+    padding: 8px 12px;
+    background: #5CB85F;
+    border-radius: 2px;
+}
+
+/* NAVBAR */
+.nav-link {
+    font-size: 14px;
+    margin-left: 32px;
+}
+
+/* HERO */
+#hero-section .row {
+    height: 407px;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+/* WHY US */
+.list-cards {
+    padding-top: 40px;
+}
+
+/* TESTIMONI */
+.carousel-control {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.control-prev,
+.control-next {
+    position: relative;
+    border: none;
+}
+
+.control-prev > svg,
+.control-next > svg{
+    padding: 0;
+}
+
+.control-next > svg > circle:hover,
+.control-prev > svg > circle:hover {
+    border: none;
+    fill: #5CB85F;
+}
+
+/* CTA BANNER */
+#cta-banner-section .card {
+    border-radius: 15px;
+}
+
+#cta-banner-section .card-body {
+    margin: 64px 0 64px 0;
+}
+
+/* Media Query */
+@media (max-width: 575px) {
+    .heading-style {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .sub-heading-style {
+        font-size: 20px;
+        line-height: 120%;
+        color: #000000;
+    }
+}
+
+@media (max-width: 728px) {
+    .car {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    #hero-section .row {
+        height: 100%;
+    }
+
+    .right-our-service {
+        padding-top: 50px;
+    }
+
+    #testimoni-section .col-md-8 {
+        text-align: center;
+    }
+
+    #why-us-section .col-lg-3{
+        padding-bottom: 10px;
+    }
+
+    #footer-section .col-lg-3 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 971px) {
+    .car {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    #hero-section .row {
+        height: 100%;
+    }
+
+    .right-our-service {
+        padding-top: 50px;
+    }
+
+    #why-us-section .col-lg-3{
+        padding-bottom: 10px;
+    }
+
+    #footer-section .col-lg-3 {
+        padding-bottom: 20px;
+    }
+}
